@@ -1,0 +1,58 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #edeaff;
+}
+.stopwatch
+{max-width: 600px;
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(/images/background.png);
+    width: 90%;
+    background-size: cover;
+    text-align: center;
+    padding: 40px 0px;
+    color: #fff;
+    margin: 200px auto 0;
+    box-shadow: 0 10px 10px rgba(0,0,0,0.2);
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    justify-content: center;
+
+}
+.buttons
+{
+    /* border: 1px solid white; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+.buttons img
+{
+    width: 50px;
+    cursor: pointer;
+
+}
+.stopwatch img
+{
+    /* width: 50px; */
+}
+.stopwatch h1
+{
+    font-size: 64px;
+    font-weight: 300px;
+
+}
+.buttons img:nth-child(2)
+{
+    width: 80px;
+    /* border: 1px solid white; */
+}

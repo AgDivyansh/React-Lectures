@@ -1,0 +1,228 @@
+body {
+  /* background-color: red; */
+}
+* {
+  margin: 0;
+  border: 0px;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: black;
+  color: white;
+}
+.main {
+  background-image: url(/Assets/Images/bg.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: max(1290px, 100vw);
+  height: 80vh;
+  /* opacity: 0.8; */
+  /* background-color: black; */
+  position: relative;
+  /* border: 2px solid red; */
+}
+.main .box {
+  width: 100%;
+  height: 80vh;
+  opacity: 0.44;
+  background-color: black;
+  /* margin: auto; */
+  position: absolute;
+  top: 0px;
+  /* margin-top: 10px; */
+  /* border: 2px solid red; */
+}
+nav {
+  color: white;
+  /* background-color: red; */
+  max-width: 80vw;
+  margin: auto;
+  /* border: 2px solid white; */
+  /* padding: 10px 80px; */
+  display: flex;
+  /* flex-direction: row-reverse; */
+  /* align-items: center; */
+  
+  justify-content: space-between;
+  height: 100px;
+  /* margin-top: 50px; */
+  /* background-color: red ; */
+  align-items: center;
+  padding-top: 20px;
+}
+.languagebtn {
+  background: black;
+  opacity: 0.6;
+  color: white;
+  padding: 4px 15px;
+  font-weight: bolder;
+  border-radius: 10px;
+  font-size: 12px;
+}
+.languagebtn:hover {
+  /* outline: none; */
+  opacity: 0.9;
+  border: 1px solid grey;
+  /* background-color: red; */
+}
+.navleft img {
+  width: 110px;
+  position: relative;
+  z-index: 10;
+  /* border: 2px solid white; */
+}
+.navleft img:hover {
+  width: 120px;
+}
+.navright {
+  /* border: 2px solid white; */
+  display: flex;
+  gap: 20px;
+}
+.navright button {
+  position: relative;
+  z-index: 10;
+  height: 30px;
+  /* border: 2px solid white; */
+}
+.hero {
+  color: white;
+  /* border: 2px solid red; */
+  height: 100%;
+  display: flex;
+  flex-flow: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  position: relative;
+  font-size: 18px;
+  height: calc(100% - 100px);
+}
+/* creaiting frist heading bolder  */
+.hero > :first-child {
+  font-weight: bolder;
+  font-size: 30px;
+}
+.loginarea {
+  gap: 20px;
+  display: flex;
+  /* flex-flow: row; */
+  outline: none;
+  /* border: 2px solid red; */
+  /* display: none; */
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  /* border-radius: 10px; */
+}
+
+.emialsearch:focus {
+  /* background-color: red; */
+  outline: none;
+  opacity: 0.9;
+  border: 1px solid grey;
+}
+.lineseparator {
+  background-color: grey;
+  height: 3px;
+}
+.redbtn {
+  background-color: red;
+  color: white;
+  padding: 4px 13px;
+  font-weight: bolder;
+  border-radius: 10px;
+  font-size: 12px;
+}
+.redbtn:hover {
+  border: 1px solid white;
+}
+.getstarted {
+  font-weight: bold;
+  padding: 7px 25px;
+  font-size: 15px;
+  border-radius: 10px;
+}
+
+.emialsearch {
+  padding: 7px 25px;
+  /* border: 2px solid black; */
+  background: black;
+  opacity: 0.6;
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+  border-radius: 10px;
+  border-style: none;
+}
+.section {
+  padding: 10px;
+  /* border: 2px solid white; */
+  display: flex;
+  /* width: 100%; */
+  /* flex-direction: row; */
+  /* padding: 10px 20px; */
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.sectionlefttext {
+  display: flex;
+  flex-flow: column;
+  /* text-align: center; */
+  justify-content: center;
+  /* align-items: center; */
+  /* border: 2px solid white; */
+  padding-left: 20px;
+  width: 45%;
+  /* text-align: left; */
+}
+.sectionrightimg {
+  overflow: none;
+
+  width: 45%;
+  /* border: 2px solid white; */
+}
+.sectionrightimg img {
+  width: 100%;
+}
+.sectionlefttext div {
+  /* border: 1px solid white; */
+  /* width */
+}
+.section div {
+  font-size: 15px;
+}
+.sectionlefttext > :first-child {
+  font-weight: bolder;
+  font-size: 30px;
+}
+.sectionrighttext
+{
+    /* border: 1px solid white; */
+}
+.sectionleftimg
+{
+    width: 45%;
+    /* border: 1px solid white; */
+}
+.sectionleftimg img
+{
+    width: 100%;
+}
+.sectionrighttext
+{
+    width: 45%;
+    /* display: flex; */
+    /* border: 1px solid white; */
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+}
+/* .test 
+{
+    height: 100px ;
+    width: 100px;
+    border: 1px solid white;
+} */

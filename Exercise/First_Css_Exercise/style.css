@@ -1,0 +1,56 @@
+:root
+{
+    --first : rgb(10, 10, 10) ;
+    --second : rgb(172, 162, 216);
+}
+
+div :first-child
+{
+    background-color: rgb(216, 224, 224);
+    color: rgb(165, 48, 48);
+}
+div p:not(:first-child)
+{
+    color: rgb(228, 173, 24);
+    /* border: 20 px solid black; */
+    background-color: rgb(20, 20, 20);
+}
+*
+{
+    /* color: greenyellow; */
+    /* padding: 20px;
+    box-sizing : border-box; */
+}
+p
+{
+    color: greenyellow !important;
+    border: 20px solid orange;
+    /* background-color: var(--second); */
+}
+div > p
+{
+    /* visibility: hidden; */
+    border: 2px solid black ;
+}
+/* .first
+{
+    display: hidden;
+} */
+.box
+{
+    border:  2px solid black;
+    background-color: var(--second);
+    box-shadow: inset 10px 8px 11px  #707070;
+    --second : red ;
+}
+
+
+.text
+{
+    border: 2px solid black;
+    background-color: var(--second);
+    margin-top: 20%;
+    /* text-shadow: 2px 2px 1px #bb2c2c; */
+    display: list-item;
+    list-style-type: number;
+}

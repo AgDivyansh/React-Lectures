@@ -1,0 +1,8 @@
+.box
+{
+    border: 2px solid black;
+    height: 45px;
+    width: 56px;
+    margin: 5px;
+    padding: 5px;
+}

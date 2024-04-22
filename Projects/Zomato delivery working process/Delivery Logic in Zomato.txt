@@ -1,0 +1,22 @@
+Before Order:-
+user add/remove items to cart.
+Checkout Cart -> Generate BIll
+Apply Coupn -> Select Address + Payment Way
+COmplete payment and place order
+
+
+After Order:-
+
+Order send to resturant -> wait for resturant acceptance
+Resturant accepts -> start preparing
+Resturant rejects -> return payment
+Start preparing -> searching for nearby delivery agents
+Assign a delivery agent with same delivery path and less distance
+
+Check have picked up after every 1 min -> pickup rder from the resturant.
+
+if not pecked  up -> update estimate time
+If picked up -> get estimated order delivery time from map -> update time
+
+Update delivery location and time afer every 1 min to show current location 
+order delivered -> give fedback + ratting
