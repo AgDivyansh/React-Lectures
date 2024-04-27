@@ -1,5 +1,6 @@
 import React from "react";
 // import myimg from './my'
+import image from './divyansh.jpg'
 export default function Card() {
     // const imgPath = require('.assets/myImage.png').default ;
   return (
@@ -8,7 +9,7 @@ export default function Card() {
       <a href="/">
         <img
           className="p-8 rounded-t-lg"
-          src="https://images.pexels.com/photos/18264716/pexels-photo-18264716/free-photo-of-man-people-laptop-internet.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+          src= {image}
         // src= ".assets/myImage.png" 
           alt="product_image1"
         />
